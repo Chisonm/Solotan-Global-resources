@@ -140,7 +140,6 @@
                     </div>
                     <div class="open-description">
                         <p data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-out">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, minima. It is a long established fact that a reader will be distracted by the readable.</p>
-
                     </div>
                 </div>
             </div>
