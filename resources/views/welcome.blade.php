@@ -10,10 +10,10 @@
           <div class="slider-info banner-view bg bg2" data-selector=".bg.bg2">
             <div class="banner-info">
               <div class="container">
-                <div class="mr-auto banner-info-bg">
+                <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-out" class="mr-auto banner-info-bg">
                   <h5> We are architects, planners &amp; designers.</h5>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, velit recusandae eum necessitatibus blanditiis porro cum</p>
-                  <a class="mt-4 btn btn-secondary btn-theme2 mt-md-5" href="services.php"> Our Services</a>
+                  <a data-aos="fade-up"  data-aos-duration="2000" data-aos-easing="ease-in-out" class="mt-4 btn btn-secondary btn-theme2 mt-md-5" href="services.php"> Our Services</a>
                 </div>
               </div>
             </div>
@@ -25,10 +25,10 @@
           <div class="slider-info banner-view banner-top1 bg bg2" data-selector=".bg.bg2">
             <div class="banner-info">
               <div class="container">
-                <div class="mr-auto banner-info-bg">
+                <div data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease-in-out" class="mr-auto banner-info-bg">
                   <h5>We Create Beautiful Home Exteriors.</h5>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, velit recusandae eum necessitatibus blanditiis porro cum</p>
-                  <a class="mt-4 btn btn-secondary btn-theme2 mt-md-5" href="contact.php"> Contact Us</a>
+                  <a data-aos="fade-up"  data-aos-duration="2000" data-aos-easing="ease-in-out" class="mt-4 btn btn-secondary btn-theme2 mt-md-5" href="contact.php"> Contact Us</a>
                 </div>
               </div>
             </div>
@@ -40,10 +40,10 @@
           <div class="slider-info banner-view banner-top2 bg bg2" data-selector=".bg.bg2">
             <div class="banner-info">
               <div class="container">
-                <div class="mr-auto banner-info-bg">
+                <div data-aos="fade-left"  data-aos-duration="1000" data-aos-easing="ease-in-out" class="mr-auto banner-info-bg">
                   <h5>Exceptional Designing For Exceptional Spaces</h5>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, velit recusandae eum necessitatibus blanditiis porro cum</p>
-                  <a class="mt-4 btn btn-secondary btn-theme2 mt-md-5" href="about.php"> About Us</a>
+                  <a data-aos="fade-left"  data-aos-duration="2000" data-aos-easing="ease-in-out" class="mt-4 btn btn-secondary btn-theme2 mt-md-5" href="about.php"> About Us</a>
                 </div>
               </div>
             </div>
