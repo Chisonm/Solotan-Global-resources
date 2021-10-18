@@ -240,7 +240,7 @@
             <section id="content1" class="text-left tab-content">
                 <div class="d-grid grid-col-3">
                     <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-out" class="product">
-                        <a href="assets/images/WhatsApp Image 2020-12-17 at 10.04.35 AM (1).jpeg" data-lightbox="example-set"
+                        <a href="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.04.35 AM (1).jpeg') }}" data-lightbox="example-set"
                             data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto, ex veritatis">
                             <figure>
                                 <img src="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.04.35 AM (1).jpeg') }}" class="img-responsive" alt="" />
@@ -249,37 +249,37 @@
 
                     </div>
                     <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-out" class="product">
-                        <a href="assets/images/WhatsApp Image 2020-12-17 at 10.06.41 AM.jpeg" data-lightbox="example-set"
+                        <a href="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.06.41 AM.jpeg') }}" data-lightbox="example-set"
                             data-title="Promatex Epoxy finish paint">
                             <figure>
-                                <img src="assets/images/WhatsApp Image 2020-12-17 at 10.06.41 AM.jpeg" class="img-responsive" alt="" />
+                                <img src="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.06.41 AM.jpeg') }}" class="img-responsive" alt="" />
                             </figure>
                         </a>
 
                     </div>
                     <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-out" class="product">
-                        <a href="assets/images/WhatsApp Image 2020-12-17 at 10.07.53 AM.jpeg" data-lightbox="example-set"
+                        <a href="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.07.53 AM.jpeg') }}" data-lightbox="example-set"
                             data-title="Matt and Emulsion Paint">
                             <figure>
-                                <img src="assets/images/WhatsApp Image 2020-12-17 at 10.07.53 AM.jpeg" class="img-responsive" alt="" />
+                                <img src="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.07.53 AM.jpeg') }}" class="img-responsive" alt="" />
                             </figure>
                         </a>
 
                     </div>
                     <div data-aos="fade-left"  data-aos-duration="1000" data-aos-easing="ease-in-out" class="product">
-                        <a href="assets/images/WhatsApp Image 2020-12-17 at 10.06.43 AM (1).jpeg" data-lightbox="example-set"
+                        <a href="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.06.43 AM (1).jpeg') }}" data-lightbox="example-set"
                             data-title="Promatex Epoxy finish paint">
                             <figure>
-                                <img src="assets/images/WhatsApp Image 2020-12-17 at 10.06.43 AM (1).jpeg" class="img-responsive" alt="" />
+                                <img src="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.06.43 AM (1).jpeg') }}" class="img-responsive" alt="" />
                             </figure>
                         </a>
 
                     </div>
                     <div data-aos="fade-left"  data-aos-duration="1000" data-aos-easing="ease-in-out" class="product">
-                      <a href="assets/images/WhatsApp Image 2020-12-17 at 10.07.51 AM.jpeg" data-lightbox="example-set"
+                      <a href="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.07.51 AM.jpeg') }}" data-lightbox="example-set"
                           >
                           <figure>
-                              <img src="assets/images/WhatsApp Image 2020-12-17 at 10.07.51 AM.jpeg" class="img-responsive" alt="" />
+                              <img src="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 10.07.51 AM.jpeg') }}" class="img-responsive" alt="" />
                           </figure>
                       </a>
 
@@ -287,10 +287,10 @@
 
 
                     <div data-aos="fade-left"  data-aos-duration="1000" data-aos-easing="ease-in-out" class="product">
-                        <a href="assets/images/WhatsApp Image 2020-12-17 at 5.32.41 PM.jpeg" data-lightbox="example-set"
+                        <a href="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 5.32.41 PM.jpeg') }}" data-lightbox="example-set"
                             >
                             <figure>
-                                <img src="assets/images/WhatsApp Image 2020-12-17 at 5.32.41 PM.jpeg" class="img-responsive" alt="" />
+                                <img src="{{ asset('assets/images/WhatsApp Image 2020-12-17 at 5.32.41 PM.jpeg') }}" class="img-responsive" alt="" />
                             </figure>
                         </a>
 
@@ -303,11 +303,11 @@
     </div>
     <!-- Products4 block -->
 </div>
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/lightbox-plus-jquery.min.js"></script>
+<script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
+<script src="{{ asset('assets/js/lightbox-plus-jquery.min.js') }}"></script>
 
 
-<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
 <!-- //footer-28 block -->
 </section>
 
@@ -319,17 +319,15 @@
     });
   </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
   </script>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
   </script>
 
 <!-- Smooth scrolling -->
 
-<script src="assets/js/owl.carousel.js"></script>
+<script src="{{ asset('assets/js/owl.carousel.js') }}"></script>
 
 <!-- script for -->
 <script>
