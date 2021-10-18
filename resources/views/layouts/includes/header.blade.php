@@ -1,7 +1,7 @@
 <section class="w3l-bootstrap-header">
   <nav class="py-2 navbar navbar-expand-lg navbar-light py-lg-3">
     <div class="container">
-      <a class="navbar-brand" href="{{ url('/') }}"><span class="fa fa-paint-brush"> -</span> Solotan Global resources</a>
+      <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('assets/images/logo.png') }}" width="100" alt="logo"></a>
       <!-- if logo is image enable this
     <a class="navbar-brand" href="#index">
         <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
