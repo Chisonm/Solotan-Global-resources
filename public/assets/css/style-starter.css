@@ -9791,7 +9791,7 @@ h4.sub-title {
   background-color: transparent; }
 
 .w3l-bootstrap-header nav.navbar {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: white;
   position: absolute;
   z-index: 9;
   width: 100%;
@@ -9802,7 +9802,7 @@ h4.sub-title {
 .w3l-bootstrap-header .main-social-head a {
   margin-right: 10px;
   color: #ffffff;
-  background: rgba(255, 255, 255, 0.25);
+  background: #000;
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -9870,7 +9870,7 @@ h4.sub-title {
   color: var(--secondary-color); }
 
 .w3l-bootstrap-header .navbar-light .navbar-nav .nav-link {
-  color: var(--white-color);
+  color: #000;
   text-transform: capitalize; }
 
 .w3l-bootstrap-header li.nav-item {
